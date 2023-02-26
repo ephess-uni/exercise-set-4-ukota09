@@ -21,6 +21,8 @@ def num_shutdowns(logfile):
 
     return count
     
+    
+    
 # >>>> The code below will call your function and print the results
 if _name_ == "_main_":
     print(f'{num_shutdowns(FILENAME)=}')
